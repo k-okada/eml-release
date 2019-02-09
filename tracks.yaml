@@ -79,10 +79,11 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: null
+    last_release: :{none}
     last_version: 1.8.15
     name: upstream
     patches: kinetic
-    release_inc: '6'
+    release_inc: '7'
     release_repo_url: git@github.com:ros-gbp/eml-release.git
     release_tag: null
     ros_distro: lunar
